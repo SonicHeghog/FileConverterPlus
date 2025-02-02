@@ -3,5 +3,5 @@ services:
     name: file-conversion-bot
     env: python
     buildCommand: pip install -r requirements.txt
-    startCommand: python bot.py
+    startCommand: /start
     plan: free
